@@ -92,8 +92,6 @@ def load_data(city, month, day):
 
     return df
 
-
-
 def stats_of_time(df):
 
 
