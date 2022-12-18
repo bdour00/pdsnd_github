@@ -184,7 +184,6 @@ def user_stats(df,city):
 
 
 
-    #Function to display the data as per user request
 def display_data(df):
 
     LIST = ['yes', 'no']
