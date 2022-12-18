@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-//comment
+
 CITY_DATA = {'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv'}
@@ -86,14 +86,11 @@ def load_data(city, month, day):
         # filter by month to create the new dataframe
         df = df[df['month'] == month]
 
-    # filter by day of week if applicable
     if day != 'all':
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day.title()]
 
     return df
-
-
 
 def stats_of_time(df):
 
@@ -187,7 +184,6 @@ def user_stats(df,city):
 
 
 
-    #Function to display the data as per user request
 def display_data(df):
 
     LIST = ['yes', 'no']
