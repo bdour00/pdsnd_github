@@ -5,13 +5,13 @@ Date : 18 dec 2022
 
 
 ### Project Title
-Udacity second project 
+Udacity second project
 
 ### Description
 Describe what your project is about and what it does
 
 ### Files used
-Include the files used
+3 files on excel and one python
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
